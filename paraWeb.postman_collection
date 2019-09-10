@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "49725336-b047-420e-b9d5-6265e08b6fcf",
+		"name": "Web",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/countries/Genovia",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/countries/Genovia",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"countries",
+						"Genovia"
+					]
+				},
+				"description": "El delete"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/countries/Genovia",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"country\":\"Genovia\",\n\t\"population\":1234,\n\t\"continent\":\"Europa\",\n\t\"lifeExpectancy\":43.8,\n\t\"purchasingPower\":974.58\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/countries/Genovia",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"countries",
+						"Genovia"
+					]
+				},
+				"description": "Put"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/countries",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"country\":\"Genovia\",\n\t\"population\":9921,\n\t\"continent\":\"Europa\",\n\t\"lifeExpectancy\":43.8,\n\t\"purchasingPower\":974.58\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/countries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"countries"
+					]
+				},
+				"description": "Post"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/countries/Genovia",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"country\":\"Genovia\",\n\t\"population\":9923,\n\t\"continent\":\"Europa\",\n\t\"lifeExpectancy\":43.8,\n\t\"purchasingPower\":974.58\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/countries/Genovia",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"countries",
+						"Genovia"
+					]
+				},
+				"description": "Get"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/countries/",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"country\":\"Genovia\",\n\t\"population\":1234,\n\t\"continent\":\"Europa\",\n\t\"lifeExpectancy\":43.8,\n\t\"purchasingPower\":974.58\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/countries/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"countries",
+						""
+					]
+				},
+				"description": "Get2"
+			},
+			"response": []
+		}
+	]
+}
