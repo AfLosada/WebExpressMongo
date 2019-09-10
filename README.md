@@ -15,4 +15,4 @@ Luego se ejecuta el archivo app.js con
 node app.js
 ~~~~
 
-Y se pueden ejecutar las pruebas de Postman
+Y se pueden ejecutar las pruebas de Postman al importar el archivo "paraWeb.postman_collection".
