@@ -6,7 +6,7 @@ Vale la pena recalcar que es necesario tener instalados mongo, express y postman
 npm install express
 npm install body-parser
 npm install mongodb
-mongoimport --db pruebas --collection countries --file countriesall.json
+mongoimport --db pruebas --collection countries --file countriesall.json --jsonArray
 ~~~~
 
 Luego se ejecuta el archivo app.js con
